@@ -3,10 +3,10 @@ To create an Ubuntu EC2 instance in AWS, follow these steps:
 1.  **Sign in to the AWS Management Console**:
      - Go to the AWS Management Console at https://aws.amazon.com/console/.
      - Sign in with your AWS account credentials.
-   ** Navigate to VPC**:
+    Navigate to VPC:
      - create VPC on the region that was near to your location (low latency).
      - create route tables, add IGW to the route tables and cretaesubnet assiocations.
-   ** Create Security Groups**:
+    Create Security Groups:
      - Add inbound ports that are required mainly to connect VM we need SSH--PORT22, add ALL-TCP ports if you are not clear.(Do not do at organizational level)
 
 2. **Navigate to EC2**:
