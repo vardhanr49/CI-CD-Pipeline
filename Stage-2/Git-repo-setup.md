@@ -20,6 +20,9 @@
      ```
    Replace `<repository_URL>` with the URL of your private repository.
 
+ **Clone the git repo from the provided link which is a board game application** 
+         https://github.com/jaiswaladi246/Boardgame
+
 4. **Add Your Source Code Files**:
    - Navigate into the cloned repository directory.
    - Paste your source code files or create new ones inside this directory.
