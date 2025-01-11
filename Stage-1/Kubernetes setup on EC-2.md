@@ -65,7 +65,8 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ### 9. Here after executing the above command we will get an output similar to below 
     ## kubeadm join 10.0.2.154:6443 --token g8xkdx.r7jfji7n6jprtrwm \
         --discovery-token-ca-cert-hash sha256:013a0b6d7389a1987d263236a63832ef1cdc2e73fe977bf7d62b3c59544eb205
-        so add similar one on the worker-nodes in kubernetes. By this worker nodes will be added to the control node
+        so add similar one on the worker-nodes in kubernetes. By this worker nodes will be added to the control node.
+        
 ### 10. Deploy Networking Solution (Calico) [On MasterNode]
 
 ```bash
