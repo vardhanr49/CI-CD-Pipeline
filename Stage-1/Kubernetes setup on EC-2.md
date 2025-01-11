@@ -78,3 +78,7 @@ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.49.0/deploy/static/provider/baremetal/deploy.yaml
 ```
+
+## Reference: 
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/  #(installing k8s)
+https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/  #(installing Kubeadm,kubelet,kubectl)
